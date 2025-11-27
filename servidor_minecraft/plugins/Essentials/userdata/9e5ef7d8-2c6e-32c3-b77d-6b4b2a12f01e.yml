@@ -1,0 +1,38 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 127.96.31.92
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 0
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1763838802300
+  login: 1763838086805
+money: '0'
+last-account-name: eslikk
+logoutlocation:
+  world: cd00b8af-0d0e-4f55-b1b4-b96ee323173c
+  world-name: world
+  x: -305.5980883058404
+  y: 128.5
+  z: 617.6094990605186
+  yaw: -101.7635498046875
+  pitch: 65.85018157958984
+lastlocation:
+  world: cd00b8af-0d0e-4f55-b1b4-b96ee323173c
+  world-name: world
+  x: -4.5
+  y: 87.0
+  z: 8.5
+  yaw: 9.30133056640625
+  pitch: 16.050031661987305

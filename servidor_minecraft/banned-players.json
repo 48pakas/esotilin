@@ -1,0 +1,42 @@
+[
+  {
+    "uuid": "6c96ca74-2760-39c2-bc5e-0fe0ad0ae9b9",
+    "name": "lq_tee",
+    "created": "2025-11-23 04:17:18 +0000",
+    "source": "2onl",
+    "expires": "forever",
+    "reason": "Banned by an operator."
+  },
+  {
+    "uuid": "bed35978-16d4-3b2d-b7fe-de6c8b7338d4",
+    "name": "ByCronnex",
+    "created": "2025-11-23 04:17:27 +0000",
+    "source": "2onl",
+    "expires": "forever",
+    "reason": "Banned by an operator."
+  },
+  {
+    "uuid": "207e48da-0c60-3920-abae-ad4fd5d9dab1",
+    "name": "paralisis",
+    "created": "2025-11-23 04:17:14 +0000",
+    "source": "2onl",
+    "expires": "forever",
+    "reason": "Banned by an operator."
+  },
+  {
+    "uuid": "efd49a8a-309b-39d3-b16b-4e1a07e103ea",
+    "name": "situalss",
+    "created": "2025-11-23 04:17:08 +0000",
+    "source": "2onl",
+    "expires": "forever",
+    "reason": "Banned by an operator."
+  },
+  {
+    "uuid": "45e00418-406d-3686-ac55-2000ba869692",
+    "name": "para",
+    "created": "2025-11-23 04:17:12 +0000",
+    "source": "2onl",
+    "expires": "forever",
+    "reason": "Banned by an operator."
+  }
+]

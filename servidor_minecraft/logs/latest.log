@@ -1,0 +1,482 @@
+[22:44:42] [ServerMain/INFO]: [bootstrap] Running Java 21 (OpenJDK 64-Bit Server VM 21.0.9+10-Ubuntu-124.04; Ubuntu null) on Linux 6.8.0-1030-azure (amd64)
+[22:44:42] [ServerMain/INFO]: [bootstrap] Loading Paper 1.21.8-6-main@782ce95 (2025-07-18T20:26:58Z) for Minecraft 1.21.8
+[22:44:42] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
+[22:44:43] [ServerMain/INFO]: [PluginInitializerManager] Initialized 14 plugins
+[22:44:43] [ServerMain/INFO]: [PluginInitializerManager] Paper plugins (3):
+ - BlueSlimeCore (2.9.7.482), EconomyShopGUI (6.15.1), Minepacks (2.5.3-T20251009215941)
+[22:44:43] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (11):
+ - AuthMe (5.6.0-bCUSTOM), CombatLogX (11.6.0.0.1286), GrimAC (2.3.73-e386b93), HealOnKill (1.0), LuckPerms (5.5.0), NotBounties (1.22.19), Orebfuscator (5.5.6), ProtocolLib (5.4.0), SimpleTpa (8.0), SkinsRestorer (15.9.0), TerraformGenerator (24.3.0)
+[22:44:50] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[22:44:52] [ServerMain/INFO]: Loaded 1407 recipes
+[22:44:52] [ServerMain/INFO]: Loaded 1520 advancements
+[22:44:52] [ServerMain/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Initialising converters for DataConverter...
+[22:44:53] [ServerMain/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Finished initialising converters for DataConverter in 421.0ms
+[22:44:53] [Server thread/INFO]: Starting minecraft server version 1.21.8
+[22:44:53] [Server thread/INFO]: Loading properties
+[22:44:53] [Server thread/INFO]: This server is running Paper version 1.21.8-6-main@782ce95 (2025-07-18T20:26:58Z) (Implementing API version 1.21.8-R0.1-SNAPSHOT)
+[22:44:53] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
+[22:44:53] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[22:44:53] [Server thread/INFO]: Using 4 threads for Netty based IO
+[22:44:53] [Server thread/INFO]: [MoonriseCommon] Paper is using 1 worker threads, 1 I/O threads
+[22:44:53] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using population gen parallelism: true
+[22:44:54] [Server thread/INFO]: Default game type: SURVIVAL
+[22:44:54] [Server thread/INFO]: Generating keypair
+[22:44:54] [Server thread/INFO]: Starting Minecraft server on *:25565
+[22:44:54] [Server thread/INFO]: Using epoll channel type
+[22:44:54] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
+[22:44:54] [Server thread/INFO]: Paper: Using OpenSSL 3.x.x (Linux x86_64) cipher from Velocity.
+[22:44:54] [Server thread/INFO]: [SpigotLibraryLoader] [NotBounties] Loading 2 libraries... please wait
+[22:44:54] [Server thread/INFO]: [SpigotLibraryLoader] [NotBounties] Loaded library /workspaces/esotilin/servidor_minecraft/libraries/com/mysql/mysql-connector-j/9.4.0/mysql-connector-j-9.4.0.jar
+[22:44:54] [Server thread/INFO]: [SpigotLibraryLoader] [NotBounties] Loaded library /workspaces/esotilin/servidor_minecraft/libraries/com/google/protobuf/protobuf-java/4.31.1/protobuf-java-4.31.1.jar
+[22:44:54] [Server thread/INFO]: [SpigotLibraryLoader] [NotBounties] Loaded library /workspaces/esotilin/servidor_minecraft/libraries/io/lettuce/lettuce-core/7.0.0.RELEASE/lettuce-core-7.0.0.RELEASE.jar
+[22:44:54] [Server thread/INFO]: [SpigotLibraryLoader] [NotBounties] Loaded library /workspaces/esotilin/servidor_minecraft/libraries/redis/clients/authentication/redis-authx-core/0.1.1-beta2/redis-authx-core-0.1.1-beta2.jar
+[22:44:54] [Server thread/INFO]: [SpigotLibraryLoader] [NotBounties] Loaded library /workspaces/esotilin/servidor_minecraft/libraries/org/slf4j/slf4j-api/1.7.36/slf4j-api-1.7.36.jar
+[22:44:54] [Server thread/INFO]: [SpigotLibraryLoader] [NotBounties] Loaded library /workspaces/esotilin/servidor_minecraft/libraries/io/netty/netty-common/4.2.4.Final/netty-common-4.2.4.Final.jar
+[22:44:54] [Server thread/INFO]: [SpigotLibraryLoader] [NotBounties] Loaded library /workspaces/esotilin/servidor_minecraft/libraries/io/netty/netty-handler/4.2.4.Final/netty-handler-4.2.4.Final.jar
+[22:44:54] [Server thread/INFO]: [SpigotLibraryLoader] [NotBounties] Loaded library /workspaces/esotilin/servidor_minecraft/libraries/io/netty/netty-resolver/4.2.4.Final/netty-resolver-4.2.4.Final.jar
+[22:44:54] [Server thread/INFO]: [SpigotLibraryLoader] [NotBounties] Loaded library /workspaces/esotilin/servidor_minecraft/libraries/io/netty/netty-buffer/4.2.4.Final/netty-buffer-4.2.4.Final.jar
+[22:44:54] [Server thread/INFO]: [SpigotLibraryLoader] [NotBounties] Loaded library /workspaces/esotilin/servidor_minecraft/libraries/io/netty/netty-transport-native-unix-common/4.2.4.Final/netty-transport-native-unix-common-4.2.4.Final.jar
+[22:44:54] [Server thread/INFO]: [SpigotLibraryLoader] [NotBounties] Loaded library /workspaces/esotilin/servidor_minecraft/libraries/io/netty/netty-codec-base/4.2.4.Final/netty-codec-base-4.2.4.Final.jar
+[22:44:54] [Server thread/INFO]: [SpigotLibraryLoader] [NotBounties] Loaded library /workspaces/esotilin/servidor_minecraft/libraries/io/netty/netty-transport/4.2.4.Final/netty-transport-4.2.4.Final.jar
+[22:44:54] [Server thread/INFO]: [SpigotLibraryLoader] [NotBounties] Loaded library /workspaces/esotilin/servidor_minecraft/libraries/io/projectreactor/reactor-core/3.6.6/reactor-core-3.6.6.jar
+[22:44:54] [Server thread/INFO]: [SpigotLibraryLoader] [NotBounties] Loaded library /workspaces/esotilin/servidor_minecraft/libraries/org/reactivestreams/reactive-streams/1.0.4/reactive-streams-1.0.4.jar
+[22:44:54] [Server thread/INFO]: [SpigotLibraryLoader] [NotBounties] Loaded library /workspaces/esotilin/servidor_minecraft/libraries/io/netty/netty-resolver-dns/4.2.4.Final/netty-resolver-dns-4.2.4.Final.jar
+[22:44:54] [Server thread/INFO]: [SpigotLibraryLoader] [NotBounties] Loaded library /workspaces/esotilin/servidor_minecraft/libraries/io/netty/netty-codec-dns/4.2.4.Final/netty-codec-dns-4.2.4.Final.jar
+[22:44:54] [Server thread/INFO]: [Minepacks] PCGF-PluginLib not installed. Switching to standalone mode!
+[22:44:55] [Server thread/INFO]: [ProtocolLib] Loading server plugin ProtocolLib v5.4.0
+[22:44:55] [Server thread/INFO]: [SkinsRestorer] Loading server plugin SkinsRestorer v15.9.0
+[22:44:55] [Server thread/INFO]: [LuckPerms] Loading server plugin LuckPerms v5.5.0
+[22:44:56] [Server thread/INFO]: [Blue Slime Core] Loading server plugin BlueSlimeCore v2.9.7.482
+[22:44:56] [Server thread/INFO]: [NotBounties] Loading server plugin NotBounties v1.22.19
+[22:44:56] [Server thread/INFO]: [Minepacks] Loading server plugin Minepacks v2.5.3-T20251009215941
+[22:44:56] [Server thread/INFO]: [SimpleTpa] Loading server plugin SimpleTpa v8.0
+[22:44:56] [Server thread/INFO]: [AuthMe] Loading server plugin AuthMe v5.6.0-bCUSTOM
+[22:44:56] [Server thread/INFO]: [Orebfuscator] Loading server plugin Orebfuscator v5.5.6
+[22:44:56] [Server thread/INFO]: [TerraformGenerator] Loading server plugin TerraformGenerator v24.3.0
+[22:44:56] [Server thread/INFO]: [CombatLogX] Loading server plugin CombatLogX v11.6.0.0.1286
+[22:44:56] [Server thread/INFO]: [CombatLogX] Configuration version is recent, no major changes necessary.
+[22:44:56] [Server thread/INFO]: [CombatLogX] Loading expansions...
+[22:44:56] [Server thread/INFO]: [CombatLogX] Loading expansion 'Cheat Prevention v17.8'...
+[22:44:56] [Server thread/INFO]: [CombatLogX]  
+[22:44:56] [Server thread/WARN]: [CombatLogX] Failed to load expansion 'plugins/CombatLogX/expansions/HuskSync Compatibility.jar' because a plugin dependency was not loaded: HuskSync
+[22:44:56] [Server thread/INFO]: [CombatLogX]  
+[22:44:56] [Server thread/INFO]: [CombatLogX] Loading expansion 'Damage Effects v17.2'...
+[22:44:56] [Server thread/INFO]: [CombatLogX]  
+[22:44:56] [Server thread/WARN]: [CombatLogX] Failed to load expansion 'plugins/CombatLogX/expansions/CMI Compatibility.jar' because a plugin dependency was not loaded: CMI
+[22:44:56] [Server thread/INFO]: [CombatLogX]  
+[22:44:56] [Server thread/INFO]: [CombatLogX] Loading expansion 'Action Bar v17.3'...
+[22:44:56] [Server thread/INFO]: [CombatLogX]  
+[22:44:56] [Server thread/WARN]: [CombatLogX] Failed to load expansion 'plugins/CombatLogX/expansions/AngelChest Compatibility.jar' because a plugin dependency was not loaded: AngelChest
+[22:44:56] [Server thread/INFO]: [CombatLogX]  
+[22:44:56] [Server thread/WARN]: [CombatLogX] Failed to load expansion 'plugins/CombatLogX/expansions/WorldGuard Compatibility.jar' because a plugin dependency was not loaded: WorldGuard
+[22:44:56] [Server thread/INFO]: [CombatLogX]  
+[22:44:56] [Server thread/INFO]: [CombatLogX] Loading expansion 'Scoreboard v17.1'...
+[22:44:56] [Server thread/INFO]: [CombatLogX]  
+[22:44:56] [Server thread/INFO]: [CombatLogX] Loading expansion 'Force Field v17.6'...
+[22:44:56] [Server thread/INFO]: [CombatLogX]  
+[22:44:56] [Server thread/WARN]: [CombatLogX] Failed to load expansion 'plugins/CombatLogX/expansions/BSkyBlock Compatibility.jar' because a plugin dependency was not loaded: BentoBox
+[22:44:56] [Server thread/INFO]: [CombatLogX]  
+[22:44:56] [Server thread/WARN]: [CombatLogX] Failed to load expansion 'plugins/CombatLogX/expansions/Towny Compatibility.jar' because a plugin dependency was not loaded: Towny
+[22:44:56] [Server thread/INFO]: [CombatLogX]  
+[22:44:56] [Server thread/WARN]: [CombatLogX] Failed to load expansion 'plugins/CombatLogX/expansions/SuperiorSkyblock Compatibility.jar' because a plugin dependency was not loaded: SuperiorSkyblock2
+[22:44:56] [Server thread/INFO]: [CombatLogX]  
+[22:44:56] [Server thread/WARN]: [CombatLogX] Failed to load expansion 'plugins/CombatLogX/expansions/IridiumSkyblock Compatibility.jar' because a plugin dependency was not loaded: IridiumSkyblock
+[22:44:56] [Server thread/INFO]: [CombatLogX]  
+[22:44:56] [Server thread/WARN]: [CombatLogX] Failed to load expansion 'plugins/CombatLogX/expansions/GriefDefender Compatibility.jar' because a plugin dependency was not loaded: GriefDefender
+[22:44:56] [Server thread/INFO]: [CombatLogX]  
+[22:44:56] [Server thread/WARN]: [CombatLogX] Failed to load expansion 'plugins/CombatLogX/expansions/uSkyBlock Compatibility.jar' because a plugin dependency was not loaded: uSkyBlock
+[22:44:56] [Server thread/INFO]: [CombatLogX]  
+[22:44:56] [Server thread/WARN]: [CombatLogX] Failed to load expansion 'plugins/CombatLogX/expansions/MCPets Compatibility.jar' because a plugin dependency was not loaded: MCPets
+[22:44:56] [Server thread/INFO]: [CombatLogX]  
+[22:44:56] [Server thread/INFO]: [CombatLogX] Loading expansion 'End Crystal Helper v17.2'...
+[22:44:56] [Server thread/INFO]: [CombatLogX]  
+[22:44:56] [Server thread/INFO]: [CombatLogX] Loading expansion 'Death Effects v17.0'...
+[22:44:56] [Server thread/INFO]: [CombatLogX]  
+[22:44:56] [Server thread/INFO]: [CombatLogX] Loading expansion 'Logger v17.3'...
+[22:44:56] [Server thread/INFO]: [CombatLogX]  
+[22:44:56] [Server thread/WARN]: [CombatLogX] Failed to load expansion 'plugins/CombatLogX/expansions/FabledSkyBlock Compatibility.jar' because a plugin dependency was not loaded: FabledSkyBlock
+[22:44:56] [Server thread/INFO]: [CombatLogX]  
+[22:44:56] [Server thread/WARN]: [CombatLogX] Failed to load expansion 'plugins/CombatLogX/expansions/Residence Compatibility.jar' because a plugin dependency was not loaded: Residence
+[22:44:56] [Server thread/INFO]: [CombatLogX]  
+[22:44:56] [Server thread/INFO]: [CombatLogX] Loading expansion 'Boss Bar v17.1'...
+[22:44:56] [Server thread/INFO]: [CombatLogX]  
+[22:44:56] [Server thread/WARN]: [CombatLogX] Failed to load expansion 'plugins/CombatLogX/expansions/ASkyBlock Compatibility.jar' because a plugin dependency was not loaded: ASkyBlock
+[22:44:56] [Server thread/INFO]: [CombatLogX]  
+[22:44:56] [Server thread/INFO]: [CombatLogX] Loading expansion 'Factions Compatibility v17.0'...
+[22:44:56] [Server thread/INFO]: [CombatLogX]  
+[22:44:56] [Server thread/WARN]: [CombatLogX] Failed to load expansion 'plugins/CombatLogX/expansions/ProtectionStones Compatibility.jar' because a plugin dependency was not loaded: ProtectionStones
+[22:44:56] [Server thread/INFO]: [CombatLogX]  
+[22:44:56] [Server thread/INFO]: [CombatLogX] Loading expansion 'Glowing v17.0'...
+[22:44:56] [Server thread/INFO]: [CombatLogX]  
+[22:44:56] [Server thread/WARN]: [CombatLogX] Failed to load expansion 'plugins/CombatLogX/expansions/CrashClaim Compatibility.jar' because a plugin dependency was not loaded: CrashClaim
+[22:44:56] [Server thread/INFO]: [CombatLogX]  
+[22:44:56] [Server thread/INFO]: [CombatLogX] Loading expansion 'Damage Tagger v17.1'...
+[22:44:56] [Server thread/INFO]: [CombatLogX]  
+[22:44:56] [Server thread/WARN]: [CombatLogX] Failed to load expansion 'plugins/CombatLogX/expansions/MythicMobs Compatibility.jar' because a plugin dependency was not loaded: MythicMobs
+[22:44:56] [Server thread/INFO]: [CombatLogX]  
+[22:44:56] [Server thread/WARN]: [CombatLogX] Failed to load expansion 'plugins/CombatLogX/expansions/GriefPrevention Compatibility.jar' because a plugin dependency was not loaded: GriefPrevention
+[22:44:56] [Server thread/INFO]: [CombatLogX]  
+[22:44:56] [Server thread/INFO]: [CombatLogX] Loading expansion 'Loot Protection v17.1-debug2'...
+[22:44:56] [Server thread/INFO]: [CombatLogX]  
+[22:44:56] [Server thread/INFO]: [CombatLogX] Loading expansion 'Rewards v17.6'...
+[22:44:56] [Server thread/INFO]: [CombatLogX]  
+[22:44:56] [Server thread/WARN]: [CombatLogX] Failed to load expansion 'plugins/CombatLogX/expansions/Lands Compatibility.jar' because a plugin dependency was not loaded: Lands
+[22:44:56] [Server thread/INFO]: [CombatLogX]  
+[22:44:56] [Server thread/INFO]: [CombatLogX] Loading expansion 'LuckPerms Compatibility v17.1'...
+[22:44:56] [Server thread/INFO]: [CombatLogX]  
+[22:44:56] [Server thread/WARN]: [CombatLogX] Failed to load expansion 'plugins/CombatLogX/expansions/PlaceholderAPI Compatibility.jar' because a plugin dependency was not loaded: PlaceholderAPI
+[22:44:56] [Server thread/INFO]: [CombatLogX]  
+[22:44:56] [Server thread/WARN]: [CombatLogX] Failed to load expansion 'plugins/CombatLogX/expansions/Citizens Compatibility.jar' because a plugin dependency was not loaded: Citizens
+[22:44:56] [Server thread/INFO]: [CombatLogX]  
+[22:44:56] [Server thread/WARN]: [CombatLogX] Failed to load expansion 'plugins/CombatLogX/expansions/PreciousStones Compatibility.jar' because a plugin dependency was not loaded: PreciousStones
+[22:44:56] [Server thread/INFO]: [CombatLogX]  
+[22:44:56] [Server thread/WARN]: [CombatLogX] Failed to load expansion 'plugins/CombatLogX/expansions/KingdomsX Compatibility.jar' because a plugin dependency was not loaded: Kingdoms
+[22:44:56] [Server thread/INFO]: [CombatLogX]  
+[22:44:56] [Server thread/WARN]: [CombatLogX] Failed to load expansion 'plugins/CombatLogX/expansions/FeatherBoard Compatibility.jar' because a plugin dependency was not loaded: FeatherBoard
+[22:44:56] [Server thread/INFO]: [CombatLogX]  
+[22:44:56] [Server thread/WARN]: [CombatLogX] Failed to load expansion 'plugins/CombatLogX/expansions/VanishNoPacket Compatibility.jar' because a plugin dependency was not loaded: VanishNoPacket
+[22:44:56] [Server thread/INFO]: [CombatLogX]  
+[22:44:56] [Server thread/WARN]: [CombatLogX] Failed to load expansion 'plugins/CombatLogX/expansions/CompatHuskTowns.jar' because a plugin dependency was not loaded: HuskTowns
+[22:44:56] [Server thread/INFO]: [CombatLogX]  
+[22:44:56] [Server thread/WARN]: [CombatLogX] Failed to load expansion 'plugins/CombatLogX/expansions/PlayerParticles Compatibility.jar' because a plugin dependency was not loaded: PlayerParticles
+[22:44:56] [Server thread/INFO]: [CombatLogX]  
+[22:44:56] [Server thread/WARN]: [CombatLogX] Failed to load expansion 'plugins/CombatLogX/expansions/RedProtect Compatibility.jar' because a plugin dependency was not loaded: RedProtect
+[22:44:56] [Server thread/INFO]: [CombatLogX]  
+[22:44:56] [Server thread/INFO]: [CombatLogX] Loading expansion 'SuperVanish Compatibility v17.2'...
+[22:44:56] [Server thread/INFO]: [CombatLogX]  
+[22:44:56] [Server thread/WARN]: [CombatLogX] Failed to load expansion 'plugins/CombatLogX/expansions/EssentialsX Compatibility.jar' because a plugin dependency was not loaded: Essentials
+[22:44:56] [Server thread/INFO]: [CombatLogX]  
+[22:44:56] [Server thread/WARN]: [CombatLogX] Failed to load expansion 'plugins/CombatLogX/expansions/MarriageMaster Compatibility.jar' because a plugin dependency was not loaded: MarriageMaster
+[22:44:56] [Server thread/INFO]: [CombatLogX]  
+[22:44:56] [Server thread/WARN]: [CombatLogX] Failed to load expansion 'plugins/CombatLogX/expansions/iDisguise Compatibility.jar' because a plugin dependency was not loaded: iDisguise
+[22:44:56] [Server thread/INFO]: [CombatLogX]  
+[22:44:56] [Server thread/WARN]: [CombatLogX] Failed to load expansion 'plugins/CombatLogX/expansions/LibsDisguises Compatibility.jar' because a plugin dependency was not loaded: LibsDisguises
+[22:44:56] [Server thread/INFO]: [CombatLogX]  
+[22:44:56] [Server thread/INFO]: [CombatLogX] Loading expansion 'Newbie Helper v17.3'...
+[22:44:56] [Server thread/INFO]: [CombatLogX]  
+[22:44:56] [Server thread/WARN]: [CombatLogX] Failed to load expansion 'plugins/CombatLogX/expansions/CrackShot Compatibility.jar' because a plugin dependency was not loaded: CrackShot
+[22:44:56] [Server thread/INFO]: [CombatLogX]  
+[22:44:56] [Server thread/WARN]: [CombatLogX] Failed to load expansion 'plugins/CombatLogX/expansions/HuskHomes Compatibility.jar' because a plugin dependency was not loaded: HuskHomes
+[22:44:56] [Server thread/INFO]: [CombatLogX]  
+[22:44:56] [Server thread/WARN]: [CombatLogX] Failed to load expansion 'plugins/CombatLogX/expansions/Konquest Compatibility.jar' because a plugin dependency was not loaded: Konquest
+[22:44:56] [Server thread/INFO]: [CombatLogX]  
+[22:44:56] [Server thread/WARN]: [CombatLogX] Failed to load expansion 'plugins/CombatLogX/expansions/UltimateClaims Compatibility.jar' because a plugin dependency was not loaded: UltimateClaims
+[22:44:56] [Server thread/INFO]: [CombatLogX]  
+[22:44:56] [Server thread/INFO]: [CombatLogX] Successfully loaded 17 expansions.
+[22:44:56] [Server thread/INFO]: [GrimAC] Loading server plugin GrimAC v2.3.73-e386b93
+[22:44:56] [Server thread/INFO]: [GrimAC] Loading PacketEvents...
+[22:44:58] [Server thread/INFO]: [EconomyShopGUI] Loading server plugin EconomyShopGUI v6.15.1
+[22:44:58] [Server thread/INFO]: [HealOnKill] Loading server plugin HealOnKill v1.0
+[22:44:58] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[22:44:58] [Server thread/INFO]: [ProtocolLib] Enabling ProtocolLib v5.4.0
+[22:44:58] [Server thread/INFO]: [SkinsRestorer] Enabling SkinsRestorer v15.9.0
+[22:44:59] [Server thread/INFO]: [SkinsRestorer] Running on Minecraft 1.21.8.
+[22:44:59] [Server thread/INFO]: [SkinsRestorer] Using paper join listener!
+[22:44:59] [Server thread/INFO]: [LuckPerms] Enabling LuckPerms v5.5.0
+[22:44:59] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
+[22:44:59] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     +==================+
+[22:44:59] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |   SkinsRestorer  |
+[22:44:59] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |------------------|
+[22:44:59] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |  Standalone Mode |
+[22:44:59] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     +==================+
+[22:44:59] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
+[22:44:59] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     Version: 15.9.0
+[22:44:59] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     Commit: 1565b8f
+[22:44:59] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     This is the latest version!
+[22:44:59] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
+[22:44:59] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] Do you have issues? Read our troubleshooting guide: https://skinsrestorer.net/docs/troubleshooting
+[22:44:59] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] Want to support SkinsRestorer? Consider donating: https://skinsrestorer.net/donate
+[22:45:00] [Server thread/INFO]:         __    
+[22:45:00] [Server thread/INFO]:   |    |__)   LuckPerms v5.5.0
+[22:45:00] [Server thread/INFO]:   |___ |      Running on Bukkit - Paper
+[22:45:00] [Server thread/INFO]: 
+[22:45:00] [Server thread/INFO]: [LuckPerms] Loading configuration...
+[22:45:00] [Server thread/INFO]: [LuckPerms] Loading storage provider... [H2]
+[22:45:01] [Server thread/INFO]: [LuckPerms] Loading internal permission managers...
+[22:45:01] [Server thread/INFO]: [LuckPerms] Performing initial data load...
+[22:45:01] [Server thread/INFO]: [LuckPerms] Successfully enabled. (took 1722ms)
+[22:45:01] [Server thread/INFO]: [Blue Slime Core] Enabling BlueSlimeCore v2.9.7.482
+[22:45:01] [Server thread/INFO]: [Blue Slime Core] Successfully loaded 3 language(s).
+[22:45:01] [Server thread/INFO]: [Blue Slime Core] Detected server as regular SpigotMC/PaperMC (not Folia)
+[22:45:01] [Server thread/INFO]: [TerraformGenerator] Enabling TerraformGenerator v24.3.0
+[22:45:02] [Server thread/INFO]: [TerraformGenerator] Custom Logger Initialized
+[22:45:02] [Server thread/INFO]: [TerraformGenerator] bStats Metrics enabled.
+[22:45:02] [Server thread/INFO]: [TerraformGenerator] Detected version: v1_21_R5, packName: v1_21_R5
+[22:45:02] [Server thread/ERROR]: Error occurred while enabling TerraformGenerator v24.3.0 (Is it up to date?)
+java.lang.NoClassDefFoundError: org/bukkit/craftbukkit/v1_21_R5/CraftServer
+	at TerraformGenerator-24.3.0.jar/org.terraform.v1_21_R5.CustomBiomeHandler.init(CustomBiomeHandler.java:43) ~[TerraformGenerator-24.3.0.jar:?]
+	at TerraformGenerator-24.3.0.jar/org.terraform.v1_21_R5.NMSInjector.startupTasks(NMSInjector.java:43) ~[TerraformGenerator-24.3.0.jar:?]
+	at TerraformGenerator-24.3.0.jar/org.terraform.main.TerraformGeneratorPlugin.onEnable(TerraformGeneratorPlugin.java:145) ~[TerraformGenerator-24.3.0.jar:?]
+	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:280) ~[paper-api-1.21.8-R0.1-SNAPSHOT.jar:?]
+	at io.papermc.paper.plugin.manager.PaperPluginInstanceManager.enablePlugin(PaperPluginInstanceManager.java:202) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
+	at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.enablePlugin(PaperPluginManagerImpl.java:109) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
+	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:520) ~[paper-api-1.21.8-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.craftbukkit.CraftServer.enablePlugin(CraftServer.java:651) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
+	at org.bukkit.craftbukkit.CraftServer.enablePlugins(CraftServer.java:607) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
+	at net.minecraft.server.dedicated.DedicatedServer.initServer(DedicatedServer.java:236) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1164) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
+	at net.minecraft.server.MinecraftServer.lambda$spin$2(MinecraftServer.java:310) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
+Caused by: java.lang.ClassNotFoundException: org.bukkit.craftbukkit.v1_21_R5.CraftServer
+	at org.bukkit.plugin.java.PluginClassLoader.loadClass0(PluginClassLoader.java:205) ~[paper-api-1.21.8-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.plugin.java.PluginClassLoader.loadClass(PluginClassLoader.java:172) ~[paper-api-1.21.8-R0.1-SNAPSHOT.jar:?]
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:526) ~[?:?]
+	... 13 more
+[22:45:02] [Server thread/INFO]: [TerraformGenerator] Disabling TerraformGenerator v24.3.0
+[22:45:02] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[22:45:02] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[22:45:02] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[22:45:02] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[22:45:02] [Server thread/INFO]: Preparing level "world"
+[22:45:03] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[22:45:03] [Server thread/INFO]: Preparing spawn area: 0%
+[22:45:03] [Server thread/INFO]: Preparing spawn area: 2%
+[22:45:04] [Server thread/INFO]: Preparing spawn area: 18%
+[22:45:04] [Server thread/INFO]: Time elapsed: 1235 ms
+[22:45:04] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[22:45:04] [Server thread/INFO]: Preparing spawn area: 0%
+[22:45:04] [Server thread/INFO]: Time elapsed: 420 ms
+[22:45:04] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[22:45:04] [Server thread/INFO]: Preparing spawn area: 0%
+[22:45:04] [Server thread/INFO]: Time elapsed: 121 ms
+[22:45:04] [Server thread/INFO]: [NotBounties] Enabling NotBounties v1.22.19
+[22:45:07] [Server thread/INFO]: [Minepacks] Enabling Minepacks v2.5.3-T20251009215941
+[22:45:07] [Server thread/INFO]: [Minepacks] Starting Minepacks in standalone mode!
+[22:45:07] [Server thread/INFO]: [Minepacks] Config file successfully loaded.
+[22:45:07] [Server thread/WARN]: [Minepacks] Paper support is experimental! Use at your own risk!
+[22:45:07] [Server thread/WARN]: [Minepacks] No guarantee for data integrity! Backup constantly!
+[22:45:07] [Server thread/INFO]: [Minepacks] Language file successfully loaded. Language: english  Author: GeorgH93
+[22:45:07] [Server thread/INFO]: [Minepacks] Minepacks-Connection-Pool - Starting...
+[22:45:07] [Server thread/INFO]: [Minepacks] Minepacks-Connection-Pool - Start completed.
+[22:45:07] [Server thread/INFO]: [Minepacks] Item name language file successfully loaded. Language: english  Author: GeorgH93
+[22:45:07] [Server thread/INFO]: [Minepacks] Loading item translations ...
+[22:45:07] [Server thread/INFO]: [Minepacks] Finished loading item translations for 826 items.
+[22:45:07] [Server thread/INFO]: [Minepacks]  Minepacks has been enabled!  :) 
+[22:45:07] [Server thread/INFO]: [SimpleTpa] Enabling SimpleTpa v8.0
+[22:45:07] [Server thread/INFO]: [SimpleTpa] If you need support contact me at https://discord.gg/SZUkza9
+[22:45:07] [Server thread/INFO]: [SimpleTpa] Simple Tpa has been enabled on version 8.0
+[22:45:07] [Server thread/INFO]: Enabled metrics. You may opt-out by changing plugins/bStats/config.yml
+[22:45:07] [Server thread/INFO]: [AuthMe] Enabling AuthMe v5.6.0-bCUSTOM
+[22:45:08] [Server thread/INFO]: [AuthMe] SQLite Setup finished
+[22:45:08] [Server thread/INFO]: [AuthMe] Hooked into LuckPerms!
+[22:45:09] [Server thread/INFO]: [AuthMe] AuthMe 5.6.0 build n.CUSTOM successfully enabled!
+[22:45:09] [Server thread/INFO]: [Orebfuscator] Enabling Orebfuscator v5.5.6
+[22:45:09] [Server thread/INFO]: [Orebfuscator] Searching NMS adapter for server version "v1_21_R5_mojang"!
+[22:45:09] [Server thread/INFO]: [Orebfuscator] NMS adapter for server version "v1_21_R5_mojang" found!
+[22:45:09] [Server thread/INFO]: [CombatLogX] Enabling CombatLogX v11.6.0.0.1286
+[22:45:10] [Server thread/INFO]: [CombatLogX] Successfully loaded 29 language(s).
+[22:45:10] [Server thread/INFO]: [CombatLogX] Detected server as regular SpigotMC/PaperMC (not Folia)
+[22:45:10] [Server thread/INFO]: CombatLogX was loaded successfully.
+[22:45:10] [Server thread/INFO]: [CombatLogX] Enabling expansions...
+[22:45:10] [Server thread/INFO]: [CombatLogX] Enabling expansion 'Action Bar v17.3'...
+[22:45:10] [Server thread/INFO]: [CombatLogX]  
+[22:45:10] [Server thread/INFO]: [CombatLogX] Enabling expansion 'Boss Bar v17.1'...
+[22:45:10] [Server thread/INFO]: [CombatLogX]  
+[22:45:10] [Server thread/INFO]: [CombatLogX] Enabling expansion 'Cheat Prevention v17.8'...
+[22:45:10] [Server thread/INFO]: [CombatLogX]  
+[22:45:10] [Server thread/INFO]: [CombatLogX] Enabling expansion 'Factions Compatibility v17.0'...
+[22:45:10] [Server thread/WARN]: [CombatLogX] Failed to find any of the following plugins:
+[22:45:10] [Server thread/WARN]: [CombatLogX] [Factions, FactionsX, LegacyFactions]
+[22:45:10] [Server thread/WARN]: [CombatLogX] Please contact SirBlobman if you believe this is mistake.
+[22:45:10] [Server thread/WARN]: [CombatLogX] https://github.com/SirBlobman/BlueSlimeCore/issues/new/choose
+[22:45:10] [Server thread/INFO]: [CombatLogX] [Factions Compatibility] Some dependencies for this expansion are missing!
+[22:45:10] [Server thread/INFO]: [CombatLogX] Disabling expansion 'Factions Compatibility v17.0'...
+[22:45:10] [Server thread/INFO]: [CombatLogX]  
+[22:45:10] [Server thread/INFO]: [CombatLogX] Enabling expansion 'LuckPerms Compatibility v17.1'...
+[22:45:10] [Server thread/INFO]: [CombatLogX] [LuckPerms Compatibility] Successfully found a dependency: LuckPerms v5.5.0
+[22:45:10] [Server thread/INFO]: [CombatLogX] [LuckPerms Compatibility] Dependency 'LuckPerms' is not the correct version!
+[22:45:10] [Server thread/INFO]: [CombatLogX] Disabling expansion 'LuckPerms Compatibility v17.1'...
+[22:45:10] [Server thread/INFO]: [CombatLogX]  
+[22:45:10] [Server thread/INFO]: [CombatLogX] Enabling expansion 'SuperVanish Compatibility v17.2'...
+[22:45:10] [Server thread/WARN]: [CombatLogX] [SuperVanish Compatibility] A dependency is not installed on the server: PremiumVanish
+[22:45:10] [Server thread/INFO]: [CombatLogX] [SuperVanish Compatibility] Missing PremiumVanish, checking for regular SuperVanish...
+[22:45:10] [Server thread/WARN]: [CombatLogX] [SuperVanish Compatibility] A dependency is not installed on the server: SuperVanish
+[22:45:10] [Server thread/INFO]: [CombatLogX] [SuperVanish Compatibility] Some dependencies for this expansion are missing!
+[22:45:10] [Server thread/INFO]: [CombatLogX] Disabling expansion 'SuperVanish Compatibility v17.2'...
+[22:45:10] [Server thread/INFO]: [CombatLogX]  
+[22:45:10] [Server thread/INFO]: [CombatLogX] Enabling expansion 'Damage Effects v17.2'...
+[22:45:10] [Server thread/INFO]: [CombatLogX]  
+[22:45:10] [Server thread/INFO]: [CombatLogX] Enabling expansion 'Damage Tagger v17.1'...
+[22:45:10] [Server thread/INFO]: [CombatLogX]  
+[22:45:10] [Server thread/INFO]: [CombatLogX] Enabling expansion 'Death Effects v17.0'...
+[22:45:10] [Server thread/INFO]: [CombatLogX]  
+[22:45:10] [Server thread/INFO]: [CombatLogX] Enabling expansion 'End Crystal Helper v17.2'...
+[22:45:10] [Server thread/INFO]: [CombatLogX]  
+[22:45:10] [Server thread/INFO]: [CombatLogX] Enabling expansion 'Force Field v17.6'...
+[22:45:10] [Server thread/INFO]: [CombatLogX] [Force Field] Successfully found a dependency: ProtocolLib v5.4.0
+[22:45:10] [Server thread/INFO]: [CombatLogX]  
+[22:45:10] [Server thread/INFO]: [CombatLogX] Enabling expansion 'Glowing v17.0'...
+[22:45:10] [Server thread/INFO]: [CombatLogX]  
+[22:45:10] [Server thread/INFO]: [CombatLogX] Enabling expansion 'Logger v17.3'...
+[22:45:10] [Server thread/INFO]: [CombatLogX]  
+[22:45:10] [Server thread/INFO]: [CombatLogX] Enabling expansion 'Loot Protection v17.1-debug2'...
+[22:45:10] [Server thread/INFO]: [CombatLogX]  
+[22:45:10] [Server thread/INFO]: [CombatLogX] Enabling expansion 'Newbie Helper v17.3'...
+[22:45:10] [Server thread/INFO]: [CombatLogX]  
+[22:45:10] [Server thread/INFO]: [CombatLogX] Enabling expansion 'Rewards v17.6'...
+[22:45:10] [Server thread/WARN]: [CombatLogX] [Rewards] A dependency is not installed on the server: Vault
+[22:45:10] [Server thread/INFO]: [CombatLogX] Disabling expansion 'Rewards v17.6'...
+[22:45:10] [Server thread/INFO]: [CombatLogX]  
+[22:45:10] [Server thread/INFO]: [CombatLogX] Enabling expansion 'Scoreboard v17.1'...
+[22:45:10] [Server thread/INFO]: [CombatLogX]  
+[22:45:10] [Server thread/INFO]: [CombatLogX] Successfully enabled 13 expansions.
+[22:45:10] [Server thread/INFO]: CombatLogX was enabled successfully.
+[22:45:10] [Server thread/INFO]: [GrimAC] Enabling GrimAC v2.3.73-e386b93
+[22:45:10] [Server thread/INFO]: [GrimAC] Registering packets...
+[22:45:10] [Server thread/INFO]: [GrimAC] Registering tick schedulers...
+[22:45:10] [Server thread/INFO]: Grim Version: 2.3.73-e386b93
+[22:45:10] [Server thread/INFO]: [GrimAC] Registering singular bukkit event... (PistonEvent)
+[22:45:10] [Server thread/INFO]: [EconomyShopGUI] Enabling EconomyShopGUI v6.15.1
+[22:45:11] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Using lang-en.yml as language file
+[22:45:11] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Completed loading 16 section configs from /sections/
+[22:45:11] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Completed loading 16 shop configs from /shops/
+[22:45:11] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Updating Shop settings...
+[22:45:11] [Server thread/INFO]: [EconomyShopGUI] [WARN]: Failed to load default economy provider with reason 'Could not find Vault', trying to automatically find supported economy provider
+[22:45:11] [Server thread/INFO]: [EconomyShopGUI] [WARN]: ===================================================
+[22:45:11] [Server thread/INFO]: [EconomyShopGUI] [WARN]:  
+[22:45:11] [Server thread/INFO]: [EconomyShopGUI] [WARN]: Failed to automatically load an available economy provider, this plugin requires one, disabling...
+[22:45:11] [Server thread/INFO]: [EconomyShopGUI] [WARN]: See a list of available economy providers on our wiki here: https://wiki.gpplugins.com/economyshopgui/file-configuration/config.yml#economy-provider
+[22:45:11] [Server thread/INFO]: [EconomyShopGUI] [WARN]:  
+[22:45:11] [Server thread/INFO]: [EconomyShopGUI] [WARN]: ===================================================
+[22:45:11] [Server thread/INFO]: [EconomyShopGUI] Disabling EconomyShopGUI v6.15.1
+[22:45:11] [Server thread/INFO]: [HealOnKill] Enabling HealOnKill v1.0
+[22:45:11] [Server thread/INFO]: [spark] Starting background profiler...
+[22:45:12] [Server thread/INFO]: Done preparing level "world" (10.293s)
+[22:45:12] [Server thread/INFO]: Running delayed init tasks
+[22:45:12] [Server thread/INFO]: [CombatLogX] Successfully enabled 0 late-load expansions.
+[22:45:12] [Server thread/INFO]: Done (31.242s)! For help, type "help"
+[22:45:12] [Craft Scheduler Thread - 4 - AuthMe/INFO]: [AuthMe] Downloading GEO IP database, because the old database is older than 30 days or doesn't exist
+[22:45:12] [Craft Scheduler Thread - 4 - AuthMe/WARN]: [AuthMe] No MaxMind credentials found in the configuration file! GeoIp protections will be disabled.
+[22:45:12] [Craft Scheduler Thread - 4 - AuthMe/INFO]: [AuthMe] There is no newer GEO IP database uploaded to MaxMind. Using the old one for now.
+[22:45:12] [Craft Scheduler Thread - 4 - AuthMe/WARN]: [AuthMe] Could not download GeoLiteAPI database [FileNotFoundException]: plugins/AuthMe/GeoLite2-Country.mmdb (No such file or directory)
+[22:45:12] [Craft Scheduler Thread - 3 - BlueSlimeCore/INFO]: [Blue Slime Core]  
+[22:45:12] [Craft Scheduler Thread - 3 - BlueSlimeCore/INFO]: [Blue Slime Core] [Update Checker] There are no updates available for plugin 'CombatLogX'.
+[22:45:13] [Craft Scheduler Thread - 0 - GrimAC/INFO]: New GrimAC version found! Version 2.3.73-c2c044f is available to be downloaded here: https://modrinth.com/plugin/grimac
+[22:45:13] [Craft Scheduler Thread - 2 - BlueSlimeCore/INFO]: [Blue Slime Core]  
+[22:45:13] [Craft Scheduler Thread - 2 - BlueSlimeCore/INFO]: [Blue Slime Core] [Update Checker] Found a possible update for plugin 'BlueSlimeCore'.
+[22:45:13] [Craft Scheduler Thread - 2 - BlueSlimeCore/INFO]: [Blue Slime Core] [Update Checker] Local Version: 2.9.7.482
+[22:45:13] [Craft Scheduler Thread - 2 - BlueSlimeCore/INFO]: [Blue Slime Core] [Update Checker] Remote Version: 2.9.8.504
+[22:45:13] [Craft Scheduler Thread - 2 - BlueSlimeCore/INFO]: [Blue Slime Core] [Update Checker] Download Link: https://hangar.papermc.io/SirBlobman/BlueSlimeCore
+[22:45:14] [Server thread/INFO]: Ggum1 (/127.206.116.119:50141) lost connection: Disconnected
+[22:45:14] [Server thread/INFO]: Ggum1 (/127.206.116.119:60799) lost connection: Disconnected
+[22:45:14] [User Authenticator #0/INFO]: UUID of player Ggum1 is a72aaa8c-3d29-33ad-95e6-5a4aac48d548
+[22:45:14] [User Authenticator #1/INFO]: UUID of player Ggum1 is a72aaa8c-3d29-33ad-95e6-5a4aac48d548
+[22:45:18] [User Authenticator #1/INFO]: UUID of player Ggum1 is a72aaa8c-3d29-33ad-95e6-5a4aac48d548
+[22:45:18] [Server thread/INFO]: [HorriblePlayerLoginEventHack] You have plugins listening to the PlayerLoginEvent, this will cause re-configuration APIs to be unavailable: [LuckPerms, AuthMe, ProtocolLib]
+[22:45:20] [Server thread/INFO]: Ggum1 joined the game
+[22:45:20] [Server thread/INFO]: Ggum1[/127.206.116.119:56713] logged in with entity id 19 at ([world_nether]201.25601022832123, 71.0, -103.73834279675435)
+[22:45:22] [Netty Epoll Server IO #0/INFO]: [ac.grim.grimac.shaded.com.github.retrooper.packetevents.PacketEventsAPI] Loading block mappings for V_1_21_6/19...
+[22:45:22] [Netty Epoll Server IO #0/INFO]: [ac.grim.grimac.shaded.com.github.retrooper.packetevents.PacketEventsAPI] Finished loading block mappings for V_1_21_6/19 in 349.832216ms
+[22:45:26] [Craft Scheduler Thread - 1 - AuthMe/INFO]: [AuthMe] Ggum1 logged in 127.206.116.119
+[22:46:52] [User Authenticator #2/INFO]: UUID of player oc4s is 736bad68-ba8c-377a-942d-44f201c1b322
+[22:46:54] [Server thread/INFO]: oc4s joined the game
+[22:46:54] [Server thread/INFO]: oc4s[/127.73.173.85:36645] logged in with entity id 699 at ([world]1146.699999988079, 60.0, 159.5573654551072)
+[22:47:06] [Craft Scheduler Thread - 1 - AuthMe/INFO]: [AuthMe] oc4s logged in 127.73.173.85
+[22:48:53] [Server thread/INFO]: Ggum1 issued server command: /tpa oc4s
+[22:48:55] [Server thread/INFO]: oc4s issued server command: /tpaccept
+[22:51:03] [Server thread/INFO]: [CombatLogX] Using non-NMS Paper EntityHandler
+[23:01:55] [Server thread/INFO]: oc4s lost connection: Disconnected
+[23:01:55] [Server thread/INFO]: oc4s left the game
+[23:03:13] [User Authenticator #3/INFO]: UUID of player oc4s is 736bad68-ba8c-377a-942d-44f201c1b322
+[23:03:14] [Server thread/INFO]: oc4s joined the game
+[23:03:14] [Server thread/INFO]: oc4s[/127.73.173.85:56325] logged in with entity id 6742 at ([world]909.6892146796156, 50.0, 161.5983979085768)
+[23:03:19] [Craft Scheduler Thread - 1 - AuthMe/INFO]: [AuthMe] oc4s logged in 127.73.173.85
+[23:07:41] [Server thread/INFO]: Ggum1 issued server command: /tpa oc4s}
+[23:07:46] [Server thread/INFO]: Ggum1 issued server command: /tpa oc4s
+[23:07:49] [Server thread/INFO]: oc4s issued server command: /tpaccept
+[23:09:15] [Server thread/INFO]: oc4s issued server command: /tpa Ggum1
+[23:09:23] [Server thread/INFO]: Ggum1 issued server command: /tpaccept
+[23:18:16] [Server thread/INFO]: oc4s issued server command: /tpa Ggum1
+[23:18:19] [Server thread/INFO]: Ggum1 issued server command: /tpaccept
+[23:27:47] [Server thread/INFO]: Villager Villager['Villager'/11796, uuid='12167f99-77c6-4951-847c-fa355295c263', l='ServerLevel[world]', x=1187.20, y=62.78, z=22.04, cpos=[74, 1], tl=22648, v=true] died, message: 'Villager was slain by Drowned'
+[23:28:45] [Server thread/INFO]: Ggum1 lost connection: Disconnected
+[23:28:45] [Server thread/INFO]: Ggum1 left the game
+[23:29:11] [Server thread/INFO]: oc4s issued server command: /back
+[23:29:57] [Server thread/INFO]: oc4s lost connection: Disconnected
+[23:29:57] [Server thread/INFO]: oc4s left the game
+[23:30:07] [Server thread/INFO]: Stopping the server
+[23:30:07] [Server thread/INFO]: Stopping server
+[23:30:07] [Server thread/INFO]: [HealOnKill] Disabling HealOnKill v1.0
+[23:30:07] [Server thread/INFO]: [GrimAC] Disabling GrimAC v2.3.73-e386b93
+[23:30:07] [Server thread/INFO]: [GrimAC] Terminating PacketEvents...
+[23:30:07] [Server thread/INFO]: [CombatLogX] Disabling CombatLogX v11.6.0.0.1286
+[23:30:07] [Server thread/INFO]: [CombatLogX] Disabling expansions...
+[23:30:07] [Server thread/INFO]: [CombatLogX] Disabling expansion 'Action Bar v17.3'...
+[23:30:07] [Server thread/INFO]: [CombatLogX]  
+[23:30:07] [Server thread/INFO]: [CombatLogX] Disabling expansion 'Boss Bar v17.1'...
+[23:30:07] [Server thread/INFO]: [CombatLogX]  
+[23:30:07] [Server thread/INFO]: [CombatLogX] Disabling expansion 'Cheat Prevention v17.8'...
+[23:30:07] [Server thread/INFO]: [CombatLogX]  
+[23:30:07] [Server thread/INFO]: [CombatLogX] Disabling expansion 'Damage Effects v17.2'...
+[23:30:07] [Server thread/INFO]: [CombatLogX]  
+[23:30:07] [Server thread/INFO]: [CombatLogX] Disabling expansion 'Damage Tagger v17.1'...
+[23:30:07] [Server thread/INFO]: [CombatLogX]  
+[23:30:07] [Server thread/INFO]: [CombatLogX] Disabling expansion 'Death Effects v17.0'...
+[23:30:07] [Server thread/INFO]: [CombatLogX]  
+[23:30:07] [Server thread/INFO]: [CombatLogX] Disabling expansion 'End Crystal Helper v17.2'...
+[23:30:07] [Server thread/INFO]: [CombatLogX]  
+[23:30:07] [Server thread/INFO]: [CombatLogX] Disabling expansion 'Force Field v17.6'...
+[23:30:07] [Server thread/INFO]: [CombatLogX]  
+[23:30:07] [Server thread/INFO]: [CombatLogX] Disabling expansion 'Glowing v17.0'...
+[23:30:07] [Server thread/INFO]: [CombatLogX]  
+[23:30:07] [Server thread/INFO]: [CombatLogX] Disabling expansion 'Logger v17.3'...
+[23:30:07] [Server thread/INFO]: [CombatLogX]  
+[23:30:07] [Server thread/INFO]: [CombatLogX] Disabling expansion 'Loot Protection v17.1-debug2'...
+[23:30:07] [Server thread/INFO]: [CombatLogX]  
+[23:30:07] [Server thread/INFO]: [CombatLogX] Disabling expansion 'Newbie Helper v17.3'...
+[23:30:07] [Server thread/INFO]: [CombatLogX]  
+[23:30:07] [Server thread/INFO]: [CombatLogX] Disabling expansion 'Scoreboard v17.1'...
+[23:30:07] [Server thread/INFO]: [CombatLogX]  
+[23:30:07] [Server thread/INFO]: [CombatLogX] Successfully disabled all expansions.
+[23:30:07] [Server thread/INFO]: CombatLogX was disabled successfully.
+[23:30:07] [Server thread/INFO]: [Orebfuscator] Disabling Orebfuscator v5.5.6
+[23:30:07] [Server thread/INFO]: [AuthMe] Disabling AuthMe v5.6.0-bCUSTOM
+[23:30:07] [Server thread/INFO]: [AuthMe] Waiting for 0 tasks to finish
+[23:30:07] [Server thread/INFO]: [AuthMe] AuthMe 5.6.0-bCUSTOM disabled!
+[23:30:07] [Server thread/INFO]: [SimpleTpa] Disabling SimpleTpa v8.0
+[23:30:07] [Server thread/INFO]: [SimpleTpa] If you need support contact me at https://discord.gg/SZUkza9
+[23:30:07] [Server thread/INFO]: [SimpleTpa] Simple Tpa has been disabled on version 8.0
+[23:30:07] [Server thread/INFO]: [Minepacks] Disabling Minepacks v2.5.3-T20251009215941
+[23:30:08] [Server thread/INFO]: [Minepacks] Minepacks-Connection-Pool - Shutdown initiated...
+[23:30:08] [Server thread/INFO]: [Minepacks] Minepacks-Connection-Pool - Shutdown completed.
+[23:30:08] [Server thread/INFO]: [Minepacks]  Minepacks has been disabled.  :( 
+[23:30:08] [Server thread/INFO]: [NotBounties] Disabling NotBounties v1.22.19
+[23:30:08] [Server thread/INFO]: [NotBounties] Created a new proxy_message_cache.bin file.
+[23:30:08] [Server thread/INFO]: [Blue Slime Core] Disabling BlueSlimeCore v2.9.7.482
+[23:30:08] [Server thread/INFO]: [LuckPerms] Disabling LuckPerms v5.5.0
+[23:30:08] [Server thread/INFO]: [LuckPerms] Starting shutdown process...
+[23:30:08] [Server thread/INFO]: [LuckPerms] Closing storage...
+[23:30:08] [Server thread/INFO]: [LuckPerms] Goodbye!
+[23:30:08] [Server thread/INFO]: [SkinsRestorer] Disabling SkinsRestorer v15.9.0
+[23:30:08] [Server thread/INFO]: [ProtocolLib] Disabling ProtocolLib v5.4.0
+[23:30:08] [Server thread/INFO]: Saving players
+[23:30:08] [Server thread/INFO]: Saving worlds
+[23:30:08] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[23:30:08] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
+[23:30:08] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
+[23:30:08] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
+[23:30:09] [Server thread/INFO]: [ChunkHolderManager] Saved 534 block chunks, 636 entity chunks, 0 poi chunks in world 'world' in 0.93s
+[23:30:09] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world'
+[23:30:09] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world'
+[23:30:09] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
+[23:30:09] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
+[23:30:09] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
+[23:30:09] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
+[23:30:09] [Server thread/INFO]: [ChunkHolderManager] Saved 41 block chunks, 43 entity chunks, 0 poi chunks in world 'world_nether' in 0.07s
+[23:30:09] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world_nether'
+[23:30:09] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world_nether'
+[23:30:09] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
+[23:30:09] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
+[23:30:09] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
+[23:30:09] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
+[23:30:09] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 1 entity chunks, 0 poi chunks in world 'world_the_end' in 0.00s
+[23:30:09] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world_the_end'
+[23:30:09] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world_the_end'
+[23:30:09] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[23:30:09] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[23:30:09] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[23:30:09] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[23:30:09] [Server thread/INFO]: Waiting for all RegionFile I/O tasks to complete...
+[23:30:09] [Server thread/INFO]: All RegionFile I/O tasks to complete
+[23:30:09] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of worker pool for up to 60s...
+[23:30:09] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of I/O pool for up to 60s...

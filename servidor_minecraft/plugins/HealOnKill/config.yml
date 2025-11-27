@@ -1,0 +1,3 @@
+# List of worlds where the heal-on-kill feature should be enabled
+allowedWorlds:
+  - pvp
